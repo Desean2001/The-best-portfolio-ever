@@ -27,4 +27,4 @@ Webpage opens to a colorful screen of my name and a picture of myself, and a nav
 
 Webpage has a decription of myself and multiple applications of my own making (stand ins for now).
 
-Webpage has my information at bottom of page, with links to github and linked in profiles.
+Webpage has my information at bottom of page, with links to github and linked-in profiles.
