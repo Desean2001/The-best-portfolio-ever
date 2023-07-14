@@ -1,3 +1,21 @@
 * {
   box-sizing: border-box;  
 }
+
+body {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    flex-direction: row;
+}
+
+.head-pic {
+    padding: 8px;
+    width: 180px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+}
