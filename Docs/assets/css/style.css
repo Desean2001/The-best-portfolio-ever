@@ -21,8 +21,8 @@ header {
     margin-bottom: 1%;
     margin-left: 1%;
     padding: 8px;
-    width: 120px;
-    height: 145px;
+    width: 150px;
+    height: 170px;
     border-style: solid;
     border-width: 2px;
     background-color: aliceblue;
@@ -57,6 +57,12 @@ main {
 article {
     display: flex;
     flex-direction: column;
+}
+
+article p {
+    display: flex;
+    text-align: center;
+    font-size: 150%;
 }
 
 h2 {
@@ -105,4 +111,30 @@ h3 {
 footer a {
     text-decoration: none;
     color: aliceblue;
+}
+
+@media screen and (max-width: 768px){
+    header {
+        background-color: cadetblue;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    nav {
+        background-color:darkred;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    article p {
+        font-size: 125%;
+    }
+
+    footer {
+        background-color: darkred;
+    }
 }
