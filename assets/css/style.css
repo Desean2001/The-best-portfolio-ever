@@ -79,13 +79,31 @@ section div {
     justify-content: center;
 }
 
-.sample {
+.sample-1 {
     background-color: aliceblue;
     border: 1px;
     border-color: black;
     border-style: solid;
-    width: 150px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
+}
+
+.sample-2 {
+    background-color: aliceblue;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+    height: 300px;
+}
+
+.sample-3 {
+    background-color: aliceblue;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+    height: 300px;
 }
 
 footer {
@@ -132,6 +150,20 @@ footer a {
 
     article p {
         font-size: 125%;
+    }
+
+    .sample-1 {
+        width: 350px;
+        height: 200px;
+    }
+
+    .sample-2 {
+        width: 175px;
+        height:150px;
+    }
+    .sample-3 {
+        width: 175px;
+        height: 150px;
     }
 
     footer {
